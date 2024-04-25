@@ -1,4 +1,4 @@
- override fun onChildDraw(
+    override fun onChildDraw(
         c: Canvas,
         recyclerView: RecyclerView,
         viewHolder: RecyclerView.ViewHolder,
@@ -7,7 +7,6 @@
         actionState: Int,
         isCurrentlyActive: Boolean
     ) {
-        
        val ourViewHolder =
             viewHolder as TodoAdapter.TodoViewHolder 
         val itemView = ourViewHolder.itemView
